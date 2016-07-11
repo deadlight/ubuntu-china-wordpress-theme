@@ -1,0 +1,113 @@
+#carousel-container {
+	margin: 20px auto 0;
+	height: 130px;
+	clear: both;
+}
+
+.yui3-carousel-content { height: 130px; }
+
+.yui3-carousel {
+	ul {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+}
+
+.yui3-carousel-nav {
+	float: left;
+	width: 100%;
+}
+
+.yui3-carousel-nav {
+	display: none;
+}
+
+.yui3-carousel-element {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.yui3-carousel-element li { 
+	height: 105px; 
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%; 
+} 
+
+.yui3-js-enabled .yui3-carousel-content li {
+	display: inline;
+	float: left;
+	height: 130px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 300px; 
+}
+
+.yui3-js-enabled .yui3-carousel-content li a {
+	display: block;
+	outline: none;
+	position: relative;
+	z-index: 999;
+}
+
+.yui3-carousel-nav {
+	clear: both;
+	float: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+}
+
+.yui3-carousel-next-button {
+	position: absolute;
+	right: -1px;
+}
+
+.yui3-carousel-previous-button {
+	position: absolute;
+	left: 0;
+}
+
+#welcome-message .carousel-nav-custom a {
+	background: #eee;
+	border: none;
+	height: 130px;
+	margin: 0;
+	padding: 0; 
+	text-align: center;
+	width: 50px;
+	outline: none;
+}
+
+#welcome-message #prev,
+#welcome-message #next {
+	bottom: -20px;
+	position: absolute;
+	z-index: 900;
+	text-indent: -999em;
+}
+
+#welcome-message #prev a,
+#welcome-message #next a {
+	background-color: #eee;
+	background-image: url("static/img/go-previous.svg");
+	background-repeat: no-repeat;
+	background-size: 30px 40px;
+	background-position: 20px 50%;
+	left: 0;
+	display: block;
+}
+
+#welcome-message #prev { left: 0; }
+
+#welcome-message #next a {
+	background-color: #eee;
+	background-image: url("static/img/go-next.svg");
+	background-position: 0 50%;
+}
